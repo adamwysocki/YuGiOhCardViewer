@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "YuGiOhCardViewer.app"
+               BuildableName = "Yu-Gi-Oh Card Viewer.app"
                BlueprintName = "YuGiOhCardViewer"
                ReferencedContainer = "container:YuGiOhCardViewer.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "YuGiOhCardViewerTests.xctest"
+               BuildableName = "YuGiOhCardViewer.xctest"
                BlueprintName = "YuGiOhCardViewerTests"
                ReferencedContainer = "container:YuGiOhCardViewer.xcodeproj">
             </BuildableReference>
@@ -37,17 +37,17 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "YuGiOhCardViewerTests.xctest"
+               BuildableName = "YuGiOhCardViewer.xctest"
                BlueprintName = "YuGiOhCardViewerTests"
                ReferencedContainer = "container:YuGiOhCardViewer.xcodeproj">
             </BuildableReference>
@@ -57,27 +57,30 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "YuGiOhCardViewer.app"
+            BuildableName = "Yu-Gi-Oh Card Viewer.app"
             BlueprintName = "YuGiOhCardViewer"
             ReferencedContainer = "container:YuGiOhCardViewer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "YuGiOhCardViewer.app"
+            BuildableName = "Yu-Gi-Oh Card Viewer.app"
             BlueprintName = "YuGiOhCardViewer"
             ReferencedContainer = "container:YuGiOhCardViewer.xcodeproj">
          </BuildableReference>
@@ -86,17 +89,17 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "YuGiOhCardViewer.app"
+            BuildableName = "Yu-Gi-Oh Card Viewer.app"
             BlueprintName = "YuGiOhCardViewer"
             ReferencedContainer = "container:YuGiOhCardViewer.xcodeproj">
          </BuildableReference>
