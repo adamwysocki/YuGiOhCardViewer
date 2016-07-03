@@ -72,44 +72,4 @@ class YuGiOhCardViewer extends Component {
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
-  navBar: {
-    backgroundColor: '#333',
-    flexDirection: 'row',
-    flex: 1,
-    alignItems: 'center'
-  },
-  navBarText: {
-    marginVertical: 10,
-    color: 'white',
-    textAlign: 'center'
-  },
-  navBarTitleText: {
-    fontSize: 24,
-    fontWeight: '500',
-    marginVertical: 9,
-    textAlign: 'center',
-    justifyContent: 'center'
-  },
-  navBarButtonText: {
-    fontSize: 24,
-    fontWeight: '500',
-    marginVertical: 9,
-    textAlign: 'center',
-    justifyContent: 'center',
-    marginLeft: 5
-  },
-  navBarLeftButton: {
-    paddingLeft: 10,
-    width: 50
-  },
-  navBarRightButton: {
-    paddingRight: 10,
-    width: 50
-  }
-});
-
 AppRegistry.registerComponent('YuGiOhCardViewer', () => YuGiOhCardViewer);
